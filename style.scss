@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+header{
+ .top{
+    .container{
+        .row{
+          height:8vh;
+          align-content: center;
+          align-items: baseline;
+          margin-top: 1rem;
+          .col-lg-8{
+            .menu{
+               ul{
+                li{
+                    i{
+                        background-color: #f45369;
+                color: white;
+                width:32px;
+                height:32px;
+                border-radius:7px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                    }
+                    img{
+                        background-color: #f45369;
+                        color: white;
+                        width:30px;
+                        height:30px;
+                        border-radius: 7px;
+                    }
+                }
+               }
+            }
+             ul{
+              display: flex;
+              justify-content: flex-end;
+              span{
+                  font-weight: 100;
+              }
+              #bold{
+                  font-weight: bold;
+              }
+              li{
+                  list-style-type: none;
+                  margin-left:1rem;
+                  font-size: 14px;
+                  i{
+                      color: red;
+                      margin-right:4px;
+                  }
+                  #search{
+                      width:28px;
+                      height: 28px;
+                      border:1px solid red;
+                      border-radius: 6px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                  }
+              }
+             }
+          }
+        }
+      }
+ }
+ .bottom{
+    background-color: #e8ecf1;
+    height:7vh;
+    .container{
+        .row{
+            .col-lg-3{
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 1rem;
+            }
+            .col-lg-9{
+                ul{
+                    display: flex;
+                    padding: 0px;
+                    height: 7vh;
+                    align-items: center;
+                    li{
+                        list-style-type: none;
+                        margin-right:1rem;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+ }
+}
+main{
+    .cards{
+        margin-top: 40px;
+        .container{
+            .row{
+                .orderdetal{
+                    .order{
+                        background-color: #f45369;
+                        border-radius: 7px;
+                        color: white;
+                        width:280px;
+                        height:55px;
+                        span{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100%;
+                            cursor: pointer;
+                            font-weight: bold;
+                            font-size: 20px;
+
+                        }
+                    }
+                    .detal{
+                        display: block;
+                        float: right;
+                        position: relative;
+                        right:15rem;
+                        bottom: 40px;
+                        cursor: pointer;
+                    }
+                }
+                .popular{
+                    position: relative;
+                    bottom:3rem;
+                    #fire{
+                        color: #f45369;
+                        margin-bottom:1rem;
+                        span{
+                            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    ;
+                        }
+                    }
+                    span{
+                        font-weight: bold;
+                    }
+                }
+                height:357px;
+                align-items: center;
+                ul{
+                    position: relative;
+                    bottom: 30px;
+                    display: flex;
+                    padding: 0px;
+                    width: 540px;
+                    li{
+                        list-style-type: none;
+                        margin-right:50px;
+                    }
+                }
+            }
+            .header{
+                margin-bottom: 50px;
+                 .title{
+                    h2{
+                        font-weight: bold;
+                    }
+                    span{
+                        width: 785px;
+                        display: block;
+                        font-weight: 100;
+                        margin-bottom: 50px;
+                    }
+                 }
+                 .tab{
+                    ul{
+                        padding: 0px;
+                        display: flex;
+                        #all{
+                            width:68px;
+                            height: 34px;
+                        }
+                        #inst{
+                            width:124px;
+                            height: 34px;
+                        }
+                        #deb{
+                            width:83px;
+                            height:34px;
+                        }
+                        #dig{
+                            width:91px;
+                            height:34px;
+                        }
+                        #gift{
+                            width: 71px;
+                            height:34px;
+                        }
+                        li{
+                           list-style-type:none;
+                           margin-right: 2rem;
+                           background-color:#f45369;
+                           border-radius:60px;
+                           color: white;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                 }
+            }
+            .debit{
+                background-color: #f9fafb;
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.17);
+                height:357px;
+                border-radius: 7px;
+            }
+            .kart{
+                img{
+                    width: 277px;
+                    height: 173px;
+                    padding-left: 40px;
+                }
+            }
+        }
+    }
+    .installment{
+        h2{
+            margin-top: 40px;   
+        }
+        .instcard{
+            .container{
+                .row{
+                    .col-lg-4{
+                        .box{
+                            .title{
+                                .order{
+                                    margin-left: 1rem;
+                                    position: relative;
+                                    bottom: 2px;
+                                    #order{
+                                        color: #f45369;
+                                        font-weight: bold;
+                                    }
+                                    #more{
+                                        color: gray;
+                                        padding-left: 2rem;
+                                    }
+                                }
+                                position: relative;
+                                bottom: 3rem;
+                                h3{
+                                    font-size:20px;
+                                    font-weight: bold;
+                                    padding-left: 14px;
+                                }
+                                ul{
+                                    li{
+                                        color:#f45369;
+                                        span{
+                                            color:black;
+                                            font-weight: 200;
+                                        }
+                                    }
+                                }
+                            }
+                            margin-top: 5rem;
+                            width:375px;
+                            height:242px;
+                            background-color: #f9fafb;
+                            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.12);
+                            border-radius: 7px;
+                            .image{
+                                img{
+                                    width:225px;
+                                    height:141px;
+                                    position: relative;
+                                    bottom: 4rem;
+                                    left: 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .text{
+        font-size: smaller;
+        text-align:center;
+        margin-top:7rem;
+    }
+    .choosecard{
+        background-color:#f9fafb;
+        height:60px;
+        .container{
+            .row{
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    height:60px;
+                    align-items: center;
+                    li{
+                        list-style-type: none;
+                    }
+                    #earn{
+                        color: #f45369;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    .footer{
+       
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    header{
+        .bottom{
+            display: none;
+        }
+        .col-lg-8{
+            display: none;
+            li{
+                position: relative;
+                bottom: 2rem;
+            }
+        }
+
+    }
+    main{
+        .installment{
+            .instcard{
+                .container{
+                    .row{
+                        .col-lg-4{
+                            .box{
+                                width: 100%;
+                                height:280px;
+                                .title{
+                                    .order{
+                                        text-align: center;
+                                        #more{
+                                            width: 308px;
+                                            height: 49px;
+                                            display: block;
+                                            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.17);
+                                            color: black;
+                                            float: right;
+                                            position: relative;
+                                            bottom: 49px;
+                                            right:14px;
+                                            border-radius: 7px;
+                                            span{
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                            }
+                                        }
+                                        #order{
+                                            width: 308px;
+                                            height: 49px;
+                                            display: block;
+                                            background-color: #f45369;
+                                            color: white;
+                                            border-radius: 7px;
+                                            font-weight: bold;
+                                            span{
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                            }
+                                            
+                                        }
+                                    }
+                                    hr{
+                                        position: relative;
+                                        bottom: 4rem;
+                                    }
+                                    h3{
+                                        text-align: center;
+                                    }
+                                    ul{
+                                        text-align: center;
+                                        list-style: none;
+                                    }
+                                }
+                                .image{
+                                    img{
+                                        margin:auto;
+                                        display: flex;
+                                        position: relative;
+                                        left: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .choosecard{
+            height: 200px;
+            ul{
+                height:200px !important;
+                flex-direction: column;
+                align-items: flex-start !important;
+                li{
+                    height:43px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .cards{
+            .container{
+                .kart{
+                    img{
+                        position: relative;
+                        top: 5rem;
+                        left: 11rem;
+                    }
+                }
+                .row{
+                    .popular{
+                        position: relative;
+                        bottom: 16rem;
+                    }
+                    .orderdetal{
+                        padding-left: 2rem;
+                        .order{
+                          width: 279px;
+                          height:50px;
+                        }
+                        .detal{
+                          width: 279px;
+                          height:50px;
+                          background-color: white;
+                          border-radius: 7px;
+                          box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.17);
+                          position: relative;
+                          right:40px;
+                          bottom: 49px;
+                          span{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100%;
+                          }
+                        }
+                    }
+                    height: 563px;
+                    ul{
+                        width: 100%;
+                        li{
+                            margin-left: 50px;
+                        }
+                    }
+                }
+                .debit{
+                    height:563px;
+                }
+            }
+        }
+        .col-lg-8{
+            .popular{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .col-lg-4{
+            justify-content: center;
+
+        }
+        .header{
+            .title{
+                span{
+                  width:670px !important;
+                }
+            }
+        }
+    }
+  }

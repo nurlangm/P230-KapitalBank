@@ -1,0 +1,401 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header .top .container .row {
+  height: 8vh;
+  align-content: center;
+  align-items: baseline;
+  margin-top: 1rem;
+}
+header .top .container .row .col-lg-8 .menu ul li i {
+  background-color: #f45369;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header .top .container .row .col-lg-8 .menu ul li img {
+  background-color: #f45369;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+header .top .container .row .col-lg-8 ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header .top .container .row .col-lg-8 ul span {
+  font-weight: 100;
+}
+header .top .container .row .col-lg-8 ul #bold {
+  font-weight: bold;
+}
+header .top .container .row .col-lg-8 ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+  font-size: 14px;
+}
+header .top .container .row .col-lg-8 ul li i {
+  color: red;
+  margin-right: 4px;
+}
+header .top .container .row .col-lg-8 ul li #search {
+  width: 28px;
+  height: 28px;
+  border: 1px solid red;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .bottom {
+  background-color: #e8ecf1;
+  height: 7vh;
+}
+header .bottom .container .row .col-lg-3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+header .bottom .container .row .col-lg-9 ul {
+  display: flex;
+  padding: 0px;
+  height: 7vh;
+  align-items: center;
+}
+header .bottom .container .row .col-lg-9 ul li {
+  list-style-type: none;
+  margin-right: 1rem;
+  font-size: 14px;
+}
+
+main .cards {
+  margin-top: 40px;
+}
+main .cards .container .row {
+  height: 357px;
+  align-items: center;
+}
+main .cards .container .row .orderdetal .order {
+  background-color: #f45369;
+  border-radius: 7px;
+  color: white;
+  width: 280px;
+  height: 55px;
+}
+main .cards .container .row .orderdetal .order span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+main .cards .container .row .orderdetal .detal {
+  display: block;
+  float: right;
+  position: relative;
+  right: 15rem;
+  bottom: 40px;
+  cursor: pointer;
+}
+main .cards .container .row .popular {
+  position: relative;
+  bottom: 3rem;
+}
+main .cards .container .row .popular #fire {
+  color: #f45369;
+  margin-bottom: 1rem;
+}
+main .cards .container .row .popular #fire span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .cards .container .row .popular span {
+  font-weight: bold;
+}
+main .cards .container .row ul {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  padding: 0px;
+  width: 540px;
+}
+main .cards .container .row ul li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+main .cards .container .header {
+  margin-bottom: 50px;
+}
+main .cards .container .header .title h2 {
+  font-weight: bold;
+}
+main .cards .container .header .title span {
+  width: 785px;
+  display: block;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+main .cards .container .header .tab ul {
+  padding: 0px;
+  display: flex;
+}
+main .cards .container .header .tab ul #all {
+  width: 68px;
+  height: 34px;
+}
+main .cards .container .header .tab ul #inst {
+  width: 124px;
+  height: 34px;
+}
+main .cards .container .header .tab ul #deb {
+  width: 83px;
+  height: 34px;
+}
+main .cards .container .header .tab ul #dig {
+  width: 91px;
+  height: 34px;
+}
+main .cards .container .header .tab ul #gift {
+  width: 71px;
+  height: 34px;
+}
+main .cards .container .header .tab ul li {
+  list-style-type: none;
+  margin-right: 2rem;
+  background-color: #f45369;
+  border-radius: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .cards .container .debit {
+  background-color: #f9fafb;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+  height: 357px;
+  border-radius: 7px;
+}
+main .cards .container .kart img {
+  width: 277px;
+  height: 173px;
+  padding-left: 40px;
+}
+main .installment h2 {
+  margin-top: 40px;
+}
+main .installment .instcard .container .row .col-lg-4 .box {
+  margin-top: 5rem;
+  width: 375px;
+  height: 242px;
+  background-color: #f9fafb;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title {
+  position: relative;
+  bottom: 3rem;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title .order {
+  margin-left: 1rem;
+  position: relative;
+  bottom: 2px;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title .order #order {
+  color: #f45369;
+  font-weight: bold;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title .order #more {
+  color: gray;
+  padding-left: 2rem;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 14px;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title ul li {
+  color: #f45369;
+}
+main .installment .instcard .container .row .col-lg-4 .box .title ul li span {
+  color: black;
+  font-weight: 200;
+}
+main .installment .instcard .container .row .col-lg-4 .box .image img {
+  width: 225px;
+  height: 141px;
+  position: relative;
+  bottom: 4rem;
+  left: 2rem;
+}
+main .text {
+  font-size: smaller;
+  text-align: center;
+  margin-top: 7rem;
+}
+main .choosecard {
+  background-color: #f9fafb;
+  height: 60px;
+}
+main .choosecard .container .row ul {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+main .choosecard .container .row ul li {
+  list-style-type: none;
+}
+main .choosecard .container .row ul #earn {
+  color: #f45369;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+  header .bottom {
+    display: none;
+  }
+  header .col-lg-8 {
+    display: none;
+  }
+  header .col-lg-8 li {
+    position: relative;
+    bottom: 2rem;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box {
+    width: 100%;
+    height: 280px;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title .order {
+    text-align: center;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title .order #more {
+    width: 308px;
+    height: 49px;
+    display: block;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+    color: black;
+    float: right;
+    position: relative;
+    bottom: 49px;
+    right: 14px;
+    border-radius: 7px;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title .order #more span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title .order #order {
+    width: 308px;
+    height: 49px;
+    display: block;
+    background-color: #f45369;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title .order #order span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title hr {
+    position: relative;
+    bottom: 4rem;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title h3 {
+    text-align: center;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .title ul {
+    text-align: center;
+    list-style: none;
+  }
+  main .installment .instcard .container .row .col-lg-4 .box .image img {
+    margin: auto;
+    display: flex;
+    position: relative;
+    left: 0px;
+  }
+  main .choosecard {
+    height: 200px;
+  }
+  main .choosecard ul {
+    height: 200px !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  main .choosecard ul li {
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .cards .container .kart img {
+    position: relative;
+    top: 5rem;
+    left: 11rem;
+  }
+  main .cards .container .row {
+    height: 563px;
+  }
+  main .cards .container .row .popular {
+    position: relative;
+    bottom: 16rem;
+  }
+  main .cards .container .row .orderdetal {
+    padding-left: 2rem;
+  }
+  main .cards .container .row .orderdetal .order {
+    width: 279px;
+    height: 50px;
+  }
+  main .cards .container .row .orderdetal .detal {
+    width: 279px;
+    height: 50px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+    position: relative;
+    right: 40px;
+    bottom: 49px;
+  }
+  main .cards .container .row .orderdetal .detal span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  main .cards .container .row ul {
+    width: 100%;
+  }
+  main .cards .container .row ul li {
+    margin-left: 50px;
+  }
+  main .cards .container .debit {
+    height: 563px;
+  }
+  main .col-lg-8 .popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .col-lg-4 {
+    justify-content: center;
+  }
+  main .header .title span {
+    width: 670px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
