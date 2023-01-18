@@ -311,7 +311,103 @@ main{
 }
 footer{
     .footer{
-       
+       background-color: #2e3131;
+       height:75vh;
+       .top{
+        .container{
+            .row{
+                hr{
+                    color:#f9fafb;
+                    position: relative;
+                    top: 6rem;
+                }
+                .link{
+                    ul{
+                        display: flex;
+                        position: relative;
+                        top: 5rem;
+                        li{
+                            list-style-type: none;
+                            color: white;
+                            margin-right: 20px;
+                            font-size: 20px;
+                            cursor: pointer;
+                            :hover{
+                                color: red;
+                            }
+                        }
+                    }
+                }
+                .col-lg-3{
+                    .mobileapp{
+                        .box{
+                            margin: auto;
+                            img{
+                                width: 24px;
+                                height: 24px;
+                            }
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 170px;
+                            height: 48px;
+                            background-color: white;
+                            border-radius: 10px;
+                            margin-bottom: 7px;
+                            strong{
+                                display: block;
+                                font-size:14px;
+                                span{
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                    .qr{
+                        position: relative;
+                        bottom: 10px;
+                        h3{
+                            color: white;
+                            font-size: medium;
+                            text-align: center;
+                        }
+                        img{
+                            margin: auto;
+                            display: block;
+                        }
+                    }
+                }
+                height: 50vh;
+                align-items:center;
+                justify-content: space-between;
+                .col-lg-3{
+                    position: relative;
+                    top: 6rem;
+                }
+                .col-lg-2{
+                #kapt{
+                    margin-top: 35px;
+                    
+                }
+                        #product{
+                            position: relative;
+                            
+                            top: 40px;
+                        }
+                    ul{
+                       
+                        li{
+                            padding-bottom: 7px;
+                            list-style-type: none;
+                            color: white;
+                            font-size: 14px;
+                            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+       }
     }
 }
 
@@ -487,6 +583,39 @@ footer{
             .title{
                 span{
                   width:670px !important;
+                }
+            }
+        }
+    }
+    footer{ 
+        .footer{
+            height:100vh;
+            .container{
+                .row>*{
+                    width: 50%;
+                }
+                .row{
+                    hr{
+                        width: 100%;
+                    }
+                    .link{
+                        position: relative;
+                        top: 30px;
+                        right: 8rem;
+                    }
+                    .qr{
+                        display: none;
+                    }
+                    .mobileapp{
+                        display: flex;
+                        flex-direction: column;
+                        width: 207%;
+                        position: relative;
+                        bottom: 5rem;
+                    }
+                    ul{
+                      margin-top: 60px;
+                    }
                 }
             }
         }

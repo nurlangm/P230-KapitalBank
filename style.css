@@ -261,6 +261,89 @@ main .choosecard .container .row ul #earn {
   font-weight: 600;
 }
 
+footer .footer {
+  background-color: #2e3131;
+  height: 75vh;
+}
+footer .footer .top .container .row {
+  height: 50vh;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer .top .container .row hr {
+  color: #f9fafb;
+  position: relative;
+  top: 6rem;
+}
+footer .footer .top .container .row .link ul {
+  display: flex;
+  position: relative;
+  top: 5rem;
+}
+footer .footer .top .container .row .link ul li {
+  list-style-type: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+footer .footer .top .container .row .link ul li :hover {
+  color: red;
+}
+footer .footer .top .container .row .col-lg-3 .mobileapp .box {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 48px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 7px;
+}
+footer .footer .top .container .row .col-lg-3 .mobileapp .box img {
+  width: 24px;
+  height: 24px;
+}
+footer .footer .top .container .row .col-lg-3 .mobileapp .box strong {
+  display: block;
+  font-size: 14px;
+}
+footer .footer .top .container .row .col-lg-3 .mobileapp .box strong span {
+  font-weight: 400;
+}
+footer .footer .top .container .row .col-lg-3 .qr {
+  position: relative;
+  bottom: 10px;
+}
+footer .footer .top .container .row .col-lg-3 .qr h3 {
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+footer .footer .top .container .row .col-lg-3 .qr img {
+  margin: auto;
+  display: block;
+}
+footer .footer .top .container .row .col-lg-3 {
+  position: relative;
+  top: 6rem;
+}
+footer .footer .top .container .row .col-lg-2 #kapt {
+  margin-top: 35px;
+}
+footer .footer .top .container .row .col-lg-2 #product {
+  position: relative;
+  top: 40px;
+}
+footer .footer .top .container .row .col-lg-2 ul li {
+  padding-bottom: 7px;
+  list-style-type: none;
+  color: white;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 @media screen and (max-width: 992px) {
   header .bottom {
     display: none;
@@ -397,5 +480,32 @@ main .choosecard .container .row ul #earn {
   }
   main .header .title span {
     width: 670px !important;
+  }
+  footer .footer {
+    height: 100vh;
+  }
+  footer .footer .container .row > * {
+    width: 50%;
+  }
+  footer .footer .container .row hr {
+    width: 100%;
+  }
+  footer .footer .container .row .link {
+    position: relative;
+    top: 30px;
+    right: 8rem;
+  }
+  footer .footer .container .row .qr {
+    display: none;
+  }
+  footer .footer .container .row .mobileapp {
+    display: flex;
+    flex-direction: column;
+    width: 207%;
+    position: relative;
+    bottom: 5rem;
+  }
+  footer .footer .container .row ul {
+    margin-top: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
